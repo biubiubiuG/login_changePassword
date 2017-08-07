@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <form action='updatePass' method='post'>
+    <div id='wrap'>
+      <span>当前密码:</span><input type="text" name="passWord" class="userInfo" >
+      <span>新密码:</span><input type="text" name="newPassword" class="userInfo">
+      <span>确认密码:</span><input type="text" name="againPassword" class="userInfo">
+      <input type="submit" value="保存" id="saveBtn" >
+    </div>
+  </form>
+  </body>
+</html>

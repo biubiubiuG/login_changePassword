@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrap{
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px grey;
+  margin: 0 auto;
+}
+.userInfo{
+  width: 300px;
+  height: 50px;
+  background: rgb(248,248,248);
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  margin-top: 20px;
+  text-indent: 16px;
+}
+::-webkit-input-placeholder{
+  color: darkgray;
+}
+#forgetPass{
+  width: 350px;
+  height: 50px;
+  line-height: 50px;
+}
+#forgetPass>a{
+  color: rgb(62,204,178);
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+}
+#forgetPass>a:hover{
+  text-decoration: underline;
+}
+#loginBtn{
+  width:300px;
+  height: 50px;
+  background: rgb(0,178,142);
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 100;
+  cursor: pointer;
+}
+#saveBtn{
+  width:150px;
+  height: 50px;
+  border: 0;
+  background: rgb(0,178,142);
+  outline: none;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 100;
+  cursor: pointer;
+}
+#wrap>span{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #999;
+}
